@@ -24,6 +24,6 @@ function multiply(){
 function divide(){
     let x = parseFloat(document.getElementById("Num1").value)
     let y = parseFloat(document.getElementById("Num2").value)
-    let result = x + y
+    let result = x / y
     document.getElementById("result").innerHTML = "result: " + result;
 }
